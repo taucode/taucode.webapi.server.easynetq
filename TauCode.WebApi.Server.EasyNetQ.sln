@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{83A3A530-7B3A-4C3E-9786-1EF3308B4DD7}"
+	ProjectSection(SolutionItems) = preProject
+		build\azure-pipelines-dev.yml = build\azure-pipelines-dev.yml
+		build\azure-pipelines.yml = build\azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{4AA52016-7FB3-4D4E-9809-5E089B685809}"
+	ProjectSection(SolutionItems) = preProject
+		misc\changelog.txt = misc\changelog.txt
+		misc\todo.txt = misc\todo.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{33BB77D7-416B-406A-A075-3F71AED38B9D}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\TauCode.WebApi.Server.EasyNetQ.nuspec = nuget\TauCode.WebApi.Server.EasyNetQ.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF5CC465-DD7A-40D7-A39D-5349614C8931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4B878F03-54CC-4A84-97CC-7BFCAFB3A54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi.Server.EasyNetQ", "src\TauCode.WebApi.Server.EasyNetQ\TauCode.WebApi.Server.EasyNetQ.csproj", "{E941C373-DC01-4EA5-8724-F2DE07AF04FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TauCode.WebApi.Server.EasyNetQ.Tests", "tests\TauCode.WebApi.Server.EasyNetQ.Tests\TauCode.WebApi.Server.EasyNetQ.Tests.csproj", "{A231E284-0C7A-4691-8189-B9E4C3CD30C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E941C373-DC01-4EA5-8724-F2DE07AF04FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E941C373-DC01-4EA5-8724-F2DE07AF04FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E941C373-DC01-4EA5-8724-F2DE07AF04FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E941C373-DC01-4EA5-8724-F2DE07AF04FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A231E284-0C7A-4691-8189-B9E4C3CD30C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A231E284-0C7A-4691-8189-B9E4C3CD30C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A231E284-0C7A-4691-8189-B9E4C3CD30C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A231E284-0C7A-4691-8189-B9E4C3CD30C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E941C373-DC01-4EA5-8724-F2DE07AF04FA} = {AF5CC465-DD7A-40D7-A39D-5349614C8931}
+		{A231E284-0C7A-4691-8189-B9E4C3CD30C4} = {4B878F03-54CC-4A84-97CC-7BFCAFB3A54F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E3A9736-B719-4455-94CF-1BB545123BF0}
+	EndGlobalSection
+EndGlobal
