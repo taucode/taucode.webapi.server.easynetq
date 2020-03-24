@@ -42,5 +42,5 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'custom'
-    arguments: 'push $(Build.ArtifactStagingDirectory)\TauCode.WebApi.Server.EasyNetQ.1.0.0-dev-2020-03-24-21-18.nupkg -ApiKey $(NUGET_API_KEY) -Source https://api.nuget.org/v3/index.json'
+    arguments: 'push $(Build.ArtifactStagingDirectory)\TauCode.WebApi.Server.EasyNetQ.1.0.0-dev-2020-03-24-22-32.nupkg -ApiKey $(NUGET_API_KEY) -Source https://api.nuget.org/v3/index.json'
 
