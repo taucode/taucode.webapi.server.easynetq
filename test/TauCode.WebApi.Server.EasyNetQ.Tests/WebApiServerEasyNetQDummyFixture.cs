@@ -8,7 +8,7 @@ namespace TauCode.WebApi.Server.EasyNetQ.Tests
         [Test]
         public void WebApiServerEasyNetQDummyTest()
         {
-            Assert.Pass("Added for CI.");
+            Assert.Pass("Added for Azure DevOps compatibility.");
         }
     }
 }
