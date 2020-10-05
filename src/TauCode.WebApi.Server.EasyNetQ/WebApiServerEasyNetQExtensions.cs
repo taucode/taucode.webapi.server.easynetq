@@ -26,7 +26,7 @@ namespace TauCode.WebApi.Server.EasyNetQ
             if (domainEventConverterType != null && !domainEventConverterType.IsAssignableTo<IDomainEventConverter>())
             {
                 throw new ArgumentException(
-                    $"'{nameof(domainEventConverterType)}' must be either null or implement interface '{typeof(IDomainEventConverter).FullName}'.",
+                    $"'{nameof(domainEventConverterType)}' must either be null or implement interface '{typeof(IDomainEventConverter).FullName}'.",
                     nameof(domainEventConverterType));
             }
 
