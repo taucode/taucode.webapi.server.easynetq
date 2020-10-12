@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>TauCode.WebApi.Server.EasyNetQ</id>
-    <version>1.3.2-dev-2020-10-08-17-49</version>
+    <version>1.3.2.1-dev-2020-10-12-08-30</version>
     <authors>TauCode</authors>
     <owners>TauCode</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -17,9 +17,9 @@
     <tags>taucode webapi server mq easynetq message queue</tags>
     <dependencies>
       <group targetFramework=".NETStandard2.1">
-        <dependency id="TauCode.Cqrs.Mq" version="1.3.2-dev-2020-10-08-16-13" />
-        <dependency id="TauCode.Mq.EasyNetQ" version="1.3.2-dev-2020-10-08-15-48" />
-        <dependency id="TauCode.WebApi.Server" version="1.3.2-dev-2020-10-08-17-26" />
+        <dependency id="TauCode.Cqrs.Mq" version="1.3.2.1-dev-2020-10-11-21-32" />
+        <dependency id="TauCode.Mq.EasyNetQ" version="1.3.2.1-dev-2020-10-11-20-57" />
+        <dependency id="TauCode.WebApi.Server" version="1.3.2.1-dev-2020-10-12-08-10" />
       </group>
     </dependencies>
   </metadata>
